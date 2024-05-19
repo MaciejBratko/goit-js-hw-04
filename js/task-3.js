@@ -10,6 +10,7 @@ const profile = {
   getInfo() {
     return `${this.username} has ${this.playTime} active hours!`;
   },
+  // dupa githup pages nie chce dodać tego pliku :<<<
 };
 
 console.log(profile.getInfo()); // "Jacob has 300 active hours!"
